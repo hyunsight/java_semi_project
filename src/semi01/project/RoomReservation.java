@@ -15,7 +15,7 @@ public class RoomReservation {
         this.reservedRoomType = "single";
         this.roomLimitNum = 1;
         this.roomPrice = 100000;
-        this.serveBreakfast = "미제공";
+        this.serveBreakfast = "미포함";
     }
 
     //생성자
@@ -25,12 +25,12 @@ public class RoomReservation {
         this.reservedRoomType = reservedRoomType;
         this.roomLimitNum = 1;
         this.roomPrice = 100000;
-        this.serveBreakfast = "미제공";
+        this.serveBreakfast = "미포함";
     }
 
     //기능
       public String showRoomReservationInfo() {
-        return "예약 일수: " + reservedPeriod + ", 예약 룸: " + reservedRoomType + ", 조식 제공 여부: " + serveBreakfast;
+        return "예약 일수: " + reservedPeriod + "일, 예약 룸: " + reservedRoomType + ", 조식 무료 제공: " + serveBreakfast;
     }
 
     //예약 금액 계산 메소드
