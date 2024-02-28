@@ -15,6 +15,7 @@ public class Score {
     }
 
     //메소드 - 학번, 과목에 대한 점수 출력
+    // - 객체의 주소가 아닌 객체의 정보를 출력해주는 기능
     @Override
     public String toString() {
         return "학번: " + this.studentId + ", " + subject.getSubjectName() + ": " + point;
