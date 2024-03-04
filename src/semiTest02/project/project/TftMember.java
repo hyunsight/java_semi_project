@@ -1,6 +1,6 @@
-package Semi02Final.project.project;
+package semiTest02.project.project;
 
-import Semi02Final.project.position.Position;
+import semiTest02.project.position.Position;
 
 public class TftMember {
     private String memberName;

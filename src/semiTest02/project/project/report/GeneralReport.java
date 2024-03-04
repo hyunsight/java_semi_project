@@ -1,8 +1,8 @@
-package Semi02Final.project.project.report;
+package semiTest02.project.project.report;
 
-import Semi02Final.project.position.Position;
-import Semi02Final.project.project.Tft;
-import Semi02Final.project.project.TftMember;
+import semiTest02.project.position.Position;
+import semiTest02.project.project.Tft;
+import semiTest02.project.project.TftMember;
 
 import java.util.ArrayList;
 

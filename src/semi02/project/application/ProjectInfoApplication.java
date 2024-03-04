@@ -8,8 +8,7 @@ import semi02.project.project.report.GenerateReport;
 import semi02.project.utils.Define;
 
 public class ProjectInfoApplication {
-        /*
-    Tft tft = Tft.createTft();
+    Tft tft = Tft.getInstance();
 
     SubmitTool perforce;
     SubmitTool jira;
@@ -18,8 +17,8 @@ public class ProjectInfoApplication {
     public static void main(String[] args) {
         ProjectInfoApplication app = new ProjectInfoApplication();
 
-        app.createTftMember();
         app.createSubmitTool();
+        app.createTftMember();
 
         String report = app.generateReport.getReport();
         System.out.println(report);
@@ -27,8 +26,8 @@ public class ProjectInfoApplication {
     }
 
     public void createSubmitTool() {
-        perforce = new SubmitTool("Perforce", Define.PERFORCE);
-        jira = new SubmitTool("Jira", Define.JIRA);
+        perforce = new SubmitTool("Perforce");
+        jira = new SubmitTool("Jira");
 
         tft.addSubmitTool(perforce);
         tft.addSubmitTool(jira);
@@ -108,6 +107,4 @@ public class ProjectInfoApplication {
         SubmitCount totalsubmitCount = new SubmitCount(member.getMemberName(), submitTool, submitCount);
         member.addSubmitCount(totalsubmitCount);
     }
-
-         */
 }

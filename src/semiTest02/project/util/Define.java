@@ -1,4 +1,4 @@
-package Semi02Final.project.util;
+package semiTest02.project.util;
 
 public class Define {
     public static final int SENIOR_POSITION = 0;

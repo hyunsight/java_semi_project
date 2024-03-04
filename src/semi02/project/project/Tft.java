@@ -36,12 +36,12 @@ public class Tft {
         return memberList;
     }
 
-    // - tft 멤버 추가
+    // - 툴 추가
     public void addSubmitTool (SubmitTool tool) {
         toolList.add(tool);
     }
 
-    // - tft 멤버 리스트 반환
+    // - 툴 리스트 반환
     public ArrayList<SubmitTool> getSubmitToolList () {
         return toolList;
     }
