@@ -8,6 +8,7 @@ public class Tft {
     private static Tft instance = null;
 
     //필드
+    // - TFT 구성원 및 툴 리스트 생성하기
     private static String TFT_NAME = "New Development";
     private ArrayList<TftMember> memberList = new ArrayList<>();
 
@@ -17,7 +18,7 @@ public class Tft {
     // - 기본
     private Tft () {}
 
-    // - tft 생성
+    // - TFT 생성하기
     public static Tft getInstance() {
        if(instance == null) {
            instance = new Tft();
@@ -26,24 +27,23 @@ public class Tft {
     }
 
     //메소드
-    // - tft 멤버 추가
+    // - TFT 구성원 추가하기 (리스트 내)
     public void addTftMember (TftMember member) {
         memberList.add(member);
     }
 
-    // - tft 멤버 리스트 반환
+    // - TFT 구성원 리스트 반환하기
     public ArrayList<TftMember> getTftMemberList () {
         return memberList;
     }
 
-    // - 툴 추가
+    // - TFT 툴 추가하기 (리스트 내)
     public void addSubmitTool (SubmitTool tool) {
         toolList.add(tool);
     }
 
-    // - 툴 리스트 반환
+    // - TFT 툴 리스트 반환하기
     public ArrayList<SubmitTool> getSubmitToolList () {
         return toolList;
     }
-
 }

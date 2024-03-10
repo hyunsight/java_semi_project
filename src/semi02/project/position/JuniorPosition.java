@@ -1,6 +1,7 @@
 package semi02.project.position;
 
 public class JuniorPosition implements Position {
+    //주니어 업무 능률 기준 정하기
     @Override
     public int getEfficiency(String submitTool, int submitCount) {
         int efficiency = 0;

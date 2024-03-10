@@ -1,17 +1,18 @@
 package semi02.project.project;
 
 public class SubmitCount {
-    private String memberName;
-    private SubmitTool submitTool;
-    private int submitCount;
+    private String memberName; //TFT 구성원 이름
+    private SubmitTool submitTool; //TFT 구성원 서밋에 사용한 툴 (SubmitTool 타입)
+    private int submitCount; //TFT 구성원 서밋 수
 
+    //생성자
     public SubmitCount (String memberName, SubmitTool submitTool, int submitCount) {
         this.memberName = memberName;
         this.submitTool = submitTool;
         this.submitCount = submitCount;
     }
 
-    // - getter & setter 구하기
+    // - 기타 getter & setter 구하기
     public String getMemberName() {
         return memberName;
     }

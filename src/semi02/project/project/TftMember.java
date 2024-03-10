@@ -9,12 +9,12 @@ import java.util.ArrayList;
 
 public class TftMember {
     //필드
-    private String memberName;
-    private String memberID;
-    private String memberDept;
-    private int memberYearsOfExp;
-    private Position position;
-    private ArrayList<SubmitCount> countList = new ArrayList<>();
+    private String memberName; //TFT 구성원 이름
+    private String memberID; //TFT 구성원 ID
+    private String memberDept; //TFT 구성원 부서
+    private int memberYearsOfExp; //TFT 구성원 연차
+    private Position position; //TFT 구성원 직급 (Position 타입)
+    private ArrayList<SubmitCount> countList = new ArrayList<>(); //TFT 구성원별 서밋 카운트 리스트 생성하기
 
     //생성자
     public TftMember(String memberName, String memberID, String memberDept, int memberYearsOfExp) {
@@ -26,7 +26,7 @@ public class TftMember {
     }
 
     //메소드
-    // - position 구하기
+    // - TFT 구성원 직급 구하기
     public void getPosition(int memberYearsOfExp) {
         if (memberYearsOfExp >= 7) {
             this.position = new SeniorPosition();
@@ -35,12 +35,12 @@ public class TftMember {
         } else this.position = new JuniorPosition();
     }
 
-    //  - SubmitCount 구하기
+    //  - TFT 구성원별 서밋 카운트 추가하기 (리스트 내)
     public void addSubmitCount (SubmitCount submitCount) {
         countList.add(submitCount);
     }
 
-    // - getter & setter 구하기
+    // - 기타 getter & setter 구하기
     public String getMemberName() {
         return memberName;
     }
