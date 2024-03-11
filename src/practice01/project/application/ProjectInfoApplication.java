@@ -1,11 +1,11 @@
-package semiTest02.project.application;
+package practice01.project.application;
 
-import semiTest02.project.position.JuniorPosition;
-import semiTest02.project.position.SemiSeniorPosition;
-import semiTest02.project.position.SeniorPosition;
-import semiTest02.project.project.Tft;
-import semiTest02.project.project.TftMember;
-import semiTest02.project.project.report.GeneralReport;
+import practice01.project.project.Tft;
+import practice01.project.project.TftMember;
+import practice01.project.position.JuniorPosition;
+import practice01.project.position.SemiSeniorPosition;
+import practice01.project.position.SeniorPosition;
+import practice01.project.project.report.GeneralReport;
 
 public class ProjectInfoApplication {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package semiTest02.project.project;
+package practice01.project.project;
 
 import java.util.ArrayList;
 

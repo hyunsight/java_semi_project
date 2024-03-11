@@ -1,4 +1,4 @@
-package semiTest02.project.project;
+package practice01.project.project;
 
 public class SubmitCount {
     private String memberName;

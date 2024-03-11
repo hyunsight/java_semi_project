@@ -1,4 +1,4 @@
-package semiTest02.project.position;
+package practice01.project.position;
 
 public class SeniorPosition implements Position {
     @Override
